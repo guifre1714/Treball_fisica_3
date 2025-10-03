@@ -10,7 +10,7 @@ jobs:
     runs-on: windows-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout 
         uses: action/checkout@v3
 
       - name: setup-msbuild
